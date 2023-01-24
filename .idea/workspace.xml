@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3ef70ff-f84f-4729-96df-f95ab5dfdbc1" name="Changes" comment="" />
+    <list default="true" id="b3ef70ff-f84f-4729-96df-f95ab5dfdbc1" name="Changes" comment="rails gem installs">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,6 +30,7 @@
     "ASKED_ADD_EXTERNAL_FILES": "true",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
     "last_opened_file_path": "/Users/jonathanamir/code/Jonathanamir1/rails-yelp-mvp",
     "node.js.detected.package.eslint": "true",
@@ -147,8 +150,16 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674581598113</updated>
-      <workItem from="1674581599324" duration="1322000" />
+      <workItem from="1674581599324" duration="2297000" />
     </task>
+    <task id="LOCAL-00001" summary="rails gem installs">
+      <created>1674583230904</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674583230904</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -164,5 +175,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="rails gem installs" />
+    <option name="LAST_COMMIT_MESSAGE" value="rails gem installs" />
   </component>
 </project>

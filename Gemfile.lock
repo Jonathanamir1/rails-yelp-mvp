@@ -1,4 +1,12 @@
 GIT
+  remote: https://github.com/faker-ruby/faker.git
+  revision: 2f63c85bf2878b974ce8325cec896c9c064eb247
+  branch: main
+  specs:
+    faker (3.1.0)
+      i18n (>= 1.8.11, < 2)
+
+GIT
   remote: https://github.com/heartcombo/simple_form.git
   revision: ad1bb2ef24fc1a90459e7c4c18821edb38c57c2d
   specs:
@@ -214,6 +222,7 @@ PLATFORMS
 DEPENDENCIES
   bootsnap
   debug
+  faker!
   importmap-rails
   jbuilder
   puma (~> 5.0)

@@ -4,11 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b3ef70ff-f84f-4729-96df-f95ab5dfdbc1" name="Changes" comment="rails gem installs">
+    <list default="true" id="b3ef70ff-f84f-4729-96df-f95ab5dfdbc1" name="Changes" comment="˚˚">
+      <change afterPath="$PROJECT_DIR$/app/views/restaurants/create.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/restaurants/index.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/restaurants/new.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/restaurants/show.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/reviews/create.html.erb" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/app/views/reviews/new.html.erb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/rails-yelp-mvp.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/rails-yelp-mvp.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/models/restaurant.rb" beforeDir="false" afterPath="$PROJECT_DIR$/app/models/restaurant.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/migrate/20230124180633_create_restaurants.rb" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/db/schema.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/schema.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Gemfile.lock" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/routes.rb" beforeDir="false" afterPath="$PROJECT_DIR$/config/routes.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/seeds.rb" beforeDir="false" afterPath="$PROJECT_DIR$/db/seeds.rb" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -18,11 +26,20 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="LogFilters">
+    <option name="FILTER_ERRORS" value="false" />
+    <option name="FILTER_WARNINGS" value="false" />
+    <option name="FILTER_INFO" value="true" />
+    <option name="FILTER_DEBUG" value="true" />
+    <option name="CUSTOM_FILTER" />
+  </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2KmZDUa1YpMbCkZCoD8o88L72lK" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -35,17 +52,22 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SONARLINT_PRECOMMIT_ANALYSIS": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "/Users/jonathanamir/code/Jonathanamir1/rails-yelp-mvp",
+    "last_opened_file_path": "/Users/jonathanamir/code/Jonathanamir1/rails-yelp-mvp/app/views/reviews",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
     "ruby.rails.projectView.checked": "true",
-    "settings.editor.selected.configurable": "project.scopes"
+    "settings.editor.selected.configurable": "preferences.pluginManager"
   }
 }]]></component>
-  <component name="RunManager" selected="Rails.Development: rails-yelp-mvp">
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/app/views/reviews" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Ruby.restaurants_controller">
     <configuration name="Development: rails-yelp-mvp" type="RailsRunConfigurationType" factoryName="Rails">
       <module name="rails-yelp-mvp" />
       <predefined_log_file enabled="true" id="RUBY_RAILS_SERVER" />
@@ -143,6 +165,29 @@
       <RAKE_RUN_CONFIG_SETTINGS_ID NAME="RAKE_TASK_OPTION_TESTOPTS" VALUE="" />
       <method v="2" />
     </configuration>
+    <configuration name="restaurants_controller" type="RubyRunConfigurationType" factoryName="Ruby" temporary="true">
+      <module name="rails-yelp-mvp" />
+      <RUBY_RUN_CONFIG NAME="RUBY_ARGS" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="WORK DIR" VALUE="$MODULE_DIR$" />
+      <RUBY_RUN_CONFIG NAME="SHOULD_USE_SDK" VALUE="false" />
+      <RUBY_RUN_CONFIG NAME="ALTERN_SDK_NAME" VALUE="" />
+      <RUBY_RUN_CONFIG NAME="myPassParentEnvs" VALUE="true" />
+      <EXTENSION ID="BundlerRunConfigurationExtension" BUNDLE_MODE="AUTO" bundleExecEnabled="true" />
+      <EXTENSION ID="RubyCoverageRunConfigurationExtension" track_test_folders="true" runner="rcov" ENABLE_BRANCH_COVERAGE="true" ENABLE_FORKED_COVERAGE="true">
+        <COVERAGE_PATTERN ENABLED="true">
+          <PATTERN REGEXPS="/.rvm/" INCLUDED="false" />
+        </COVERAGE_PATTERN>
+      </EXTENSION>
+      <EXTENSION ID="org.jetbrains.plugins.ruby.rails.run.RailsRunConfigurationExtension" SCRATCH_USE_RAILS_RUNNER="false" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_PATH" VALUE="$MODULE_DIR$/app/controllers/restaurants_controller.rb" />
+      <RUBY_RUN_CONFIG NAME="SCRIPT_ARGS" VALUE="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Ruby.restaurants_controller" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SpringUtil" SPRING_PRE_LOADER_OPTION="true" RAKE_SPRING_PRE_LOADER_OPTION="true" RAILS_SPRING_PRE_LOADER_OPTION="true" />
@@ -153,7 +198,11 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1674581598113</updated>
-      <workItem from="1674581599324" duration="5994000" />
+      <workItem from="1674581599324" duration="6991000" />
+      <workItem from="1674588676552" duration="3116000" />
+      <workItem from="1674592366808" duration="93000" />
+      <workItem from="1674596551750" duration="101000" />
+      <workItem from="1674755117309" duration="7393000" />
     </task>
     <task id="LOCAL-00001" summary="rails gem installs">
       <created>1674583230904</created>
@@ -162,7 +211,21 @@
       <option name="project" value="LOCAL" />
       <updated>1674583230904</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="models are validated">
+      <created>1674587680916</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674587680916</updated>
+    </task>
+    <task id="LOCAL-00003" summary="models are validated">
+      <created>1674587729623</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674587729623</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -181,6 +244,11 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="rails gem installs" />
-    <option name="LAST_COMMIT_MESSAGE" value="rails gem installs" />
+    <MESSAGE value="models are validated" />
+    <option name="LAST_COMMIT_MESSAGE" value="models are validated" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/rails_yelp_mvp@Development__rails_yelp_mvp.rcov" NAME="Development: rails-yelp-mvp Coverage Results" MODIFIED="1674591900523" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-yelp-mvp" />
+    <SUITE FILE_PATH="coverage/rails_yelp_mvp@restaurants_controller.rcov" NAME="restaurants_controller Coverage Results" MODIFIED="1674756582860" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="rcov" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" MODULE_NAME="rails-yelp-mvp" />
   </component>
 </project>
